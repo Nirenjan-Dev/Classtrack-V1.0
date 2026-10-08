@@ -82,4 +82,3 @@ def delete_all():
     return jsonify({"message":"All students deleted successfully"})
 
 create_db()
-app.run(debug=True)
